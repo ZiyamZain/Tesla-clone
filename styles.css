@@ -1,0 +1,360 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family :"Universal Sans Text", -apple-system, Arial, sans-serif;
+
+
+    
+}
+
+.topbar{
+
+    height:52px;
+    width:100%;
+    background-color:rgb(244, 244, 244);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow :rgb(208, 209, 210) 0px 0px 1px 0px;
+    color:rgb(57, 60, 65);
+    font-family :"Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-size:14px;
+    font-weight:400;
+    position:fixed;
+    
+
+    
+}
+
+.first-img{
+
+    width:100vw;
+    height:100vh;
+    background-image: url("/images/firstimage.png");
+    background-size: cover;
+   
+  
+
+}
+.second-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/secondimage.png");
+    background-size:cover;
+    position:relative;
+}
+.navbar{
+    width:100vw;
+    height:52px;
+    
+    
+}
+ul {
+  
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+  
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  margin-top: 60px; 
+  padding: 15px;
+  font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+  font-weight:400;
+  font-size: 14px;
+
+}
+.second-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/secondimage.png");
+    background-size:cover;
+
+}
+.third-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/thirdimage.png");
+    background-size:cover;
+}
+.fourth-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/fourthimage.png");
+    background-size:cover;
+}
+.fifth-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/fifthimage.png");
+    background-size:cover;
+}
+.sixth-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/sixthimage.png");
+    background-size:cover;
+}
+.seventh-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/seventhimage.png");
+    background-size:cover;
+}
+.eigth-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/eigthimage.png");
+    background-size:cover;
+}
+
+.buttonstyle{
+    width:240px;
+    height:37px;
+    text-align:center;
+    text-decoration:none;
+    border:none;
+    border-radius: 5px;
+    background-color:aliceblue;
+
+}
+
+
+.firstimage-button{
+    margin-top: 200px;
+    margin-left: 480px;
+    display:flex;
+    gap:25px;
+}
+.belowbuttons{
+    position:absolute;
+    margin-top: 680px;
+    margin-left:480px;
+    display:flex;
+    gap:25px;
+    
+}
+
+.buttoncolor{
+    background-color: #3D6AE0;
+}
+
+
+.ninth-image{
+    height:100vh;
+    width:100vw;
+    background-image:url("images/ninthimage.png");
+    background-size:cover;
+}
+
+.video-tesla {
+    position: relative;
+}
+
+.video-class {
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay-video {
+    position: absolute;
+    top: 71%; 
+    left: 160px; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+    color: white;
+    font-size: 2rem; 
+    text-align: center; 
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+  
+}
+
+.video-button{
+
+    width:204px;
+    height:40px;
+    color:black;
+    border:none;
+    font-weight:500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    
+
+
+}
+.terms-section{
+
+    width:100vw;
+    height:546px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-terms-div{
+    
+    width:596px;
+    height:468px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+
+}
+.inner-terms-div p{
+    font-size:12px;
+    font-weight:400px;
+    font-family :"Universal Sans Text", -apple-system, Arial, sans-serif;
+    line-height :18px;
+    text-align: center;
+    color:rgb(92, 94, 98);
+    margin-top:5px;
+}
+.inner-terms-div span{
+    text-decoration: underline;
+}
+
+
+.footer-side{
+    width:100vw;
+    height:70px;
+    background-color:white;
+    color:rgb(92, 94, 98);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    gap:14px;
+
+}
+.bottom-bar{
+
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding:14px 24px;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+    font-family : "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-weight: 500;
+    font-size:17px;
+    letter-spacing: 1px;
+
+
+}
+.firstimg-heading{
+    color:white;
+    color-scheme:light;
+    font-size:56px;
+    font-weight:500;
+    height:56px;
+    line-height:56px;
+    text-align: center;
+    position:absolute;
+    margin-top:111px;
+    margin-left:510px;
+
+
+}
+.car-title{
+    font-family :"Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size:56px;
+    font-style: normal;
+    font-weight:500;
+    color:white;
+    color-scheme: dark;
+
+
+}
+
+.car-details{
+    
+    position:absolute;
+    margin-top: 100px;
+    margin-left:650px;
+    color:white;
+    line-height:50px;
+}
+.car-details h3{
+    font-family :"Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size:34px;
+    font-weight:500;
+    margin-top:5px;
+    
+    
+}
+
+.car-details h5{
+    font-size:17px;
+    font-family: "Universal Sans Text";
+    font-weight: 500;
+    
+
+}
+.car-details hr{
+    height:1px;
+}
+
+
+.seventh-heading{
+    text-align: center; 
+    position:absolute;
+
+    margin-left:500px;
+    font-family :"Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size:34px;
+    font-weight: 500;
+    color:white;
+    margin-top:160px;
+
+
+}
+.button-white{
+    color:white;
+}
+.cybertruck-text img{
+    width:300px;
+    height:84px;
+    position:absolute;
+    margin-top:90px;
+    margin-left:598px;
+}
+.cybertruck-text h4{
+    position:absolute;
+    margin-top:190px;
+    margin-left:605px;
+    color:white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+.tesla-logo{
+    width:120px;
+    height:33px;
+    margin-left:30px;
+    margin-top:10px;
+    
+}
+.image-white {
+      filter: invert(1) brightness(2);
+    }
+
+
+    .side-icons{
+        z-index:2000;
+    }
